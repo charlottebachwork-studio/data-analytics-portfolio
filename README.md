@@ -11,6 +11,7 @@ Why Hello! This repository contains my data analytics projects using SQL, Python
 ## Projects (All Ongoing)
 
 ### SQL Projects
+- Sales Analysis
 - Customer Behaviour Analysis
 
 ### Python Projects
