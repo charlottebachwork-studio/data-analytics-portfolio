@@ -9,4 +9,10 @@
 The dataset used for my retail analysis is drawn from the 'E-Commerce Data' from Kaggle, which I have linked below! It contains invoices, customers, products, quantities, and prices. 
 - https://www.kaggle.com/datasets/carrie1/ecommerce-data?resource=download
 
+## Key Analysis Questions
+1. How is revenue trending over time?
+2. How many customers are repeat buyers?
+3. Which products drive the most revenue?
+
+
 
