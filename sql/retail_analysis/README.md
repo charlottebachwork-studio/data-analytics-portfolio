@@ -24,3 +24,6 @@ The dataset used for my retail analysis is drawn from the 'E-Commerce Data' from
 - Total revenue generated was approximately £10,666,684.54.
 - Revenue is heavily concentrated among a small number of products.
 - Several transactions contain missing customer IDs (135,080), which would require further cleaning for customer-level analysis.
+
+## Notes
+- Negative quantities were excluded from the revenue calculations.
