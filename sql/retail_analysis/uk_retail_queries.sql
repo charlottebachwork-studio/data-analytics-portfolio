@@ -46,3 +46,13 @@ GROUP BY description
 ORDER BY revenue DESC
 LIMIT 10;
 
+-- Monthly Revenue Trend
+SELECT
+    DATE_TRUNC('month', invoice_ts) AS month,
+    ROUND(SUM(quantity * unitprice), 2) AS monthly_revenue
+FROM retail
+WHERE quantity > 0
+  AND unitprice > 0
+	AND invoice_ts IS NOT NULL
+GROUP BY month
+ORDER BY month;
